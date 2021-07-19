@@ -49,7 +49,6 @@ class Measurement:
 			#metadata is a dict containing additional info (as t0, dt). Dispersion coefs. are wrong.
 			self.metadata = {k:v for (k, v) in self.dataset.attrs.items()}
 
-			#print(self.metadata)
 			#number of rows = number of frames taken by spectrometer.
 			#N is the number of pixels in each frame (if nothing changes, N=3840).
 			self.rows = self.raw_data.shape[0]
