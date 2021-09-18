@@ -1,4 +1,6 @@
 
+This is a summary of the files included in the project.
+
 
 ===============================================================================
 directory -- PYTHON:
